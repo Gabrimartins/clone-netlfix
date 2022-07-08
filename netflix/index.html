@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devflix</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/devflix-icon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="box-loader">
+      <div class="loader"></div>
+    </div>
+    <header id="header-main">
+      <nav id="nav-main" class="container">
+        <img id="logo" src="./img/devflix.svg" alt="">
+
+        <form id="form">
+          <input id="search" placeholder="Pesquisar filme..."/>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <section id="container-movies" class="container container-movies"></section>
+    </main>
+    <footer>
+      <a href="https://github.com/Rafa-Roodrigues?tab=repositories" target="_blank">Desenvolvido por: Rafael Rodrigues</a>
+      <p>
+        <a href="https://github.com/Rafa-Roodrigues?tab=repositories" target="_blank">
+          <img title="Github" class="icon-social" src="./img/github.svg" alt="github">
+        </a>
+        <a href="https://twitter.com/OoooRodrigues" target="_blank">
+          <img title="Twitter" class="icon-social" src="./img/twitter.svg" alt="twitter">
+        </a>
+      </p>
+    </footer>
+    <script type="module" src="./js/request.js"></script>
+  </body>
+</html>
